@@ -1,0 +1,31 @@
+# Ignore Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Node.js
+node_modules/
+.env
+.next/
+.DS_Store
+
+# Ignore AWS CDK
+dist/
+.cdk.staging/
+
+# Ignore Terraform
+tfplan
+tfstate
+.terraform/
+
+# Local metadata
+*.log
+*.swp
+.hugo_build.lock
+.vscode/
+server/
+
+# Override public/* to allow README
+!public/README.md
+public/*
+%CACHE%/

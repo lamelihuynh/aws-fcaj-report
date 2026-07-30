@@ -1,0 +1,94 @@
+---
+title: "Tổng quan về chiến lược kiểm thử"
+date: 2026-07-06
+weight: 1
+chapter: false
+pre: " <b> 5.5.1. </b> "
+---
+
+# 5.5.1 Tổng quan về chiến lược kiểm thử
+
+---
+
+Hệ thống `devsecops-factory` được thiết kế theo nguyên tắc **"Shift Left Security"** giúp đưa kiểm tra bảo mật về sớm nhất có thể trong pipeline, từ lúc lập trình viên commit code cho đến khi image container sẵn sàng deploy lên **Amazon ECS Fargate**. Để xác minh tính đúng đắn và hiệu quả của hệ thống, nhóm đã thiết kế ứng dụng **[tetris-app](https://github.com/lamelihuynh/tetris-app.git)** (ReactJS + Nginx multi-stage build) làm mục tiêu kiểm thử có chủ ý. Đây là một game Tetris web xây dựng bằng React và phục vụ file tĩnh qua Nginx. Ứng dụng được cài đặt sẵn các lỗ hổng ở nhiều tầng khác nhau, bao gồm mã nguồn, thư viện phụ thuộc, cấu hình container Dockerfile và cấu hình hạ tầng AWS (Terraform, ECS Task Definitions). Cách thiết kế này giúp kiểm chứng khả năng phát hiện của từng công cụ quét trong pipeline.
+
+---
+
+### 1. Kiến trúc pipeline và phân tầng bảo mật
+
+Pipeline `devsecops-factory` được cấu thành từ 11 stage chạy tuần tự trên Jenkins, trong đó 5 stage cốt lõi tập trung vào bảo mật. Kiến trúc này áp dụng mô hình **"Defense in Depth"** – mỗi tầng bảo vệ một loại rủi ro riêng biệt, đảm bảo không có điểm mù nào trong toàn bộ chuỗi cung ứng phần mềm.
+
+![Toàn cảnh pipeline DevSecOps 11 stage của devsecops-factory chạy trên Jenkins](/images/5-Workshop/5.5-Testing/pipeline_stages.png)
+
+_Hình 5.5.1: Toàn cảnh pipeline DevSecOps 11 stage của devsecops-factory chạy trên Jenkins – các stage bảo mật (màu đỏ) xen kẽ với các stage hạ tầng (màu xanh)._
+
+#### Bảng 5.5.1: Tóm tắt kết quả kiểm thử bảo mật toàn pipeline
+
+| Stage       | Loại quét            | Công cụ     | Lỗi phát hiện                       | Mức độ          | Kết quả                           |
+| ----------- | -------------------- | ----------- | ----------------------------------- | --------------- | --------------------------------- |
+| **Stage 3** | Secrets Scan         | Gitleaks    | 2 secrets                           | MEDIUM – HIGH   | **FAIL (exit code 1)**            |
+| **Stage 4** | SCA Scan             | Trivy FS    | 4 CVEs (HIGH)                       | HIGH            | **FAIL**                          |
+| **Stage 5** | SAST Scan            | SonarQube   | 4+ code issues                      | MEDIUM – HIGH   | **FAIL**                          |
+| **Stage 6** | IaC Scan             | Checkov     | 34 failures                         | MEDIUM – HIGH   | **FAIL (Soft-fail)**              |
+| **Stage 8** | Container Image Scan | Trivy Image | 0 CVEs (Alpine) / 40+ CVEs (Debian) | CRITICAL – HIGH | **PASS (Alpine) / FAIL (Debian)** |
+
+---
+
+### 2. Cấu trúc ứng dụng kiểm thử `tetris-app`
+
+Ứng dụng `tetris-app` có kiến trúc điển hình của một ứng dụng web hiện đại được container hóa và tự động hóa hạ tầng bằng Terraform trên AWS:
+
+```text
+tetris-app/
+├── Jenkinsfile              # Pipeline CI/CD (11 stages)
+├── app/
+│   ├── Dockerfile           # Multi-stage build (Node:16 + Nginx)
+│   ├── package.json         # Khai báo dependency (có version cũ lỗ hổng)
+│   └── package-lock.json    # Lock file (nguồn scan SCA)
+├── src/                     # Source code React (có lỗi SAST & Secrets)
+├── infrastructure/
+│   ├── terraform/           # IaC Terraform cấu hình ECS Fargate, ECR, S3, IAM
+│   │   ├── main.tf          # ECS Cluster, Fargate Task Definitions, ALB
+│   │   └── variables.tf
+│   └── task-definition.json # Amazon ECS Task Definition JSON specs
+└── ci/
+    └── stages/              # 6 Security Gates scripts tích hợp Jenkins
+```
+
+Dockerfile của ứng dụng sử dụng kiến trúc multi-stage build:
+
+```dockerfile
+# STAGE 1: Build (Compile React code)
+FROM node:16 AS builder
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+# STAGE 2: Deploy (Serve static files via Nginx)
+# FROM nginxinc/nginx-unprivileged:alpine <- DÙNG ĐỂ PASS container scan
+FROM nginx:1.18.0    # <- ĐANG DÙNG - Kích hoạt nhiều CVE CRITICAL
+COPY --from=builder /app/build /usr/share/nginx/html
+EXPOSE 8080
+CMD ["nginx", "-g", "daemon off;"]
+# [LỖI CKV_DOCKER_3]: Thiếu USER -> chạy với quyền root
+# [LỖI CKV_DOCKER_2]: Thiếu HEALTHCHECK
+```
+
+---
+
+### Ảnh minh chứng kiểm thử App & Docker build
+
+![Build React App](/images/5-Workshop/5.3-Step-by-Step/app-01-run_build_app.jpg)
+_Hình 5.5.1b: Biên dịch ứng dụng web React Tetris (`npm run build`)._
+
+![Build Docker Image](/images/5-Workshop/5.3-Step-by-Step/app-02-build_docker.jpg)
+_Hình 5.5.1c: Đóng gói Multi-stage Docker image cho ứng dụng._
+
+![Giao diện App local](/images/5-Workshop/5.3-Step-by-Step/app-02-docker_app.jpg)
+_Hình 5.5.1d: Giao diện game Tetris chạy kiểm thử local qua Docker container._
+
+![AWS CloudWatch Logs Insights](/images/5-Workshop/5.3-Step-by-Step/aws_cloudwatch_insights.png)
+_Hình 5.5.1e: Màn hình truy vấn nhật ký ứng dụng thực tế trên AWS CloudWatch Logs Insights (`/ecs/devsecops-factory`)._

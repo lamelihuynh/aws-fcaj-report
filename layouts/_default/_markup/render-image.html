@@ -1,0 +1,4 @@
+{{ $url := .Destination }}
+{{ $url = strings.TrimPrefix "/" $url }}
+{{ $url = strings.TrimPrefix "static/" $url }}
+<img src="{{ $url | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />
