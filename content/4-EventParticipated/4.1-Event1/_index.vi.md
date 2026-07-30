@@ -134,7 +134,3 @@ Phong cách câu hỏi khá gần với cách tư duy trong chứng chỉ AWS. V
 - Luyện cách giải thích vì sao chọn một dịch vụ AWS thay vì dịch vụ khác, không chỉ học dịch vụ đó dùng để làm gì.
 - Cải thiện kỹ năng thảo luận nhóm vì công việc kiến trúc cloud thường cần giao tiếp nhanh, rõ và có căn cứ.
 - Tạo checklist cá nhân khi gặp câu hỏi kiến trúc: yêu cầu, ràng buộc, lựa chọn dịch vụ, trade-off và rủi ro vận hành.
-
-## Một số hình ảnh khi tham gia sự kiện
-
-![event1](/images/event1.jpg)

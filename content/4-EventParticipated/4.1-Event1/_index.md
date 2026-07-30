@@ -134,7 +134,3 @@ The question style was close to AWS certification thinking. Practicing certifica
 - Practice explaining why one AWS service is chosen over another, not just what the service does.
 - Improve team discussion skills because cloud architecture work often depends on fast, clear and evidence-based communication.
 - Build a personal checklist for architecture questions: requirement, constraint, service choice, trade-off and operational risk.
-
-## Some Event Photos
-
-![event1](/images/event1.jpg)
