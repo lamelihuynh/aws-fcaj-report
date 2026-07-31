@@ -380,7 +380,7 @@ Lợi ích chính nằm ở chiều sâu điều tra. Thay vì chỉ kiểm tra 
 <table>
   <tr>
     <td width="130" valign="top">
-      <img src="/images/3-BlogsPosted/blog1-author-jessica-hung.jpeg" width="120" alt="Jessica Hung" />
+      <img src="https://lamelihuynh.github.io/aws-fcaj-report/images/3-BlogsPosted/blog1-author-jessica-hung.jpeg" width="120" alt="Jessica Hung" />
     </td>
     <td valign="top">
       <strong>Jessica Hung</strong><br/>
@@ -392,7 +392,7 @@ Lợi ích chính nằm ở chiều sâu điều tra. Thay vì chỉ kiểm tra 
 <table>
   <tr>
     <td width="130" valign="top">
-      <img src="/images/3-BlogsPosted/blog1-author-ross-gabay.png" width="120" alt="Ross Gabay" />
+      <img src="https://lamelihuynh.github.io/aws-fcaj-report/images/3-BlogsPosted/blog1-author-ross-gabay.png" width="120" alt="Ross Gabay" />
     </td>
     <td valign="top">
       <strong>Ross Gabay</strong><br/>
@@ -404,7 +404,7 @@ Lợi ích chính nằm ở chiều sâu điều tra. Thay vì chỉ kiểm tra 
 <table>
   <tr>
     <td width="130" valign="top">
-      <img src="/images/3-BlogsPosted/blog1-author-isaac-owusu.jpeg" width="120" alt="Isaac Kwasi Owusu" />
+      <img src="https://lamelihuynh.github.io/aws-fcaj-report/images/3-BlogsPosted/blog1-author-isaac-owusu.jpeg" width="120" alt="Isaac Kwasi Owusu" />
     </td>
     <td valign="top">
       <strong>Isaac Kwasi Owusu</strong><br/>

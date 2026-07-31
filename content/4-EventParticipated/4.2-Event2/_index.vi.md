@@ -1,6 +1,6 @@
 ---
 title: "Sự kiện 2"
-date: 2026-07-22
+date: 2026-07-11
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
