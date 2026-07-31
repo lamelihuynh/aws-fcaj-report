@@ -77,7 +77,7 @@ Jenkins Jenkinsfile 12 stages:
 CloudWatch Container Insights & Logs (logs, metrics, alarms)
 ```
 
-![Kiến trúc DevSecOps CI/CD Pipeline trên AWS](/images/2-Proposal/devsecops_pipeline_architecture.png)
+![Kiến trúc DevSecOps CI/CD Pipeline trên AWS](/images/2-Proposal/devsecops_factory_actual_architecture.png)
 
 _Dịch vụ AWS sử dụng_
 

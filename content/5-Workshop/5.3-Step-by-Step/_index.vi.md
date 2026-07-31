@@ -18,8 +18,8 @@ Phần này cung cấp hướng dẫn thực hành chi tiết từng bước (St
 
 ## Danh mục các bước thực hành
 
-1. [5.3.1 Khởi tạo ECR Repository & S3 Report Bucket](5.3.1-ECR-S3/)
-2. [5.3.2 Khai báo IAM Roles & Security Policies](5.3.2-IAM-Policies/)
-3. [5.3.3 Cấu hình 6 Security Gates trong Jenkinsfile](5.3.3-Security-Gates/)
-4. [5.3.4 Khởi tạo AWS Lambda Security Report Aggregator](5.3.4-Lambda-Aggregator/)
-5. [5.3.5 Triển khai Ứng dụng lên Amazon ECS Fargate](5.3.5-ECS-Fargate/)
+1. [5.3.1 Khởi tạo ECR Repository & S3 Report Bucket](5.3.1-ecr-s3/)
+2. [5.3.2 Khai báo IAM Roles & Security Policies](5.3.2-iam-policies/)
+3. [5.3.3 Cấu hình 6 Security Gates trong Jenkinsfile](5.3.3-security-gates/)
+4. [5.3.4 Khởi tạo AWS Lambda Security Report Aggregator](5.3.4-lambda-aggregator/)
+5. [5.3.5 Triển khai Ứng dụng lên Amazon ECS Fargate](5.3.5-ecs-fargate/)

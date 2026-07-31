@@ -12,7 +12,7 @@ pre : " <b> 5.1.2. </b> "
 
 ### 1. System Architecture Diagram
 
-![DevSecOps Architecture](/images/2-Proposal/devsecops_pipeline_architecture.png)
+![DevSecOps Architecture](/images/2-Proposal/devsecops_factory_actual_architecture.png)
 
 *Figure 5.1.2: Overall DevSecOps Factory architecture on AWS.*
 

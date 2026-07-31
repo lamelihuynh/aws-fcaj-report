@@ -20,6 +20,6 @@ Mục này trình bày chi tiết về các nhóm lỗ hổng bảo mật phổ 
 
 ## Danh mục các bài viết
 
-1. [5.4.1 Các lỗ hổng bảo mật thường gặp](5.4.1-Vulnerabilities/)
-2. [5.4.2 Các biện pháp bảo mật áp dụng](5.4.2-Defense-Measures/)
-3. [5.4.3 Các tình huống cần đặc biệt chú trọng bảo mật](5.4.3-Focus-Scenarios/)
+1. [5.4.1 Các lỗ hổng bảo mật thường gặp](5.4.1-vulnerabilities/)
+2. [5.4.2 Các biện pháp bảo mật áp dụng](5.4.2-defense-measures/)
+3. [5.4.3 Các tình huống cần đặc biệt chú trọng bảo mật](5.4.3-focus-scenarios/)

@@ -20,11 +20,10 @@ Mục này phân tích chi tiết kết quả kiểm thử qua **6 Security Gate
 
 ## Danh mục các mục kiểm thử
 
-1. [5.5.1 Tổng quan về chiến lược kiểm thử](5.5.1-Overview/)
-2. [5.5.2 Stage 3 – Quét key bí mật mã hoá cứng (Secrets Scan - Gitleaks)](5.5.2-Secrets-Scan/)
-3. [5.5.3 Stage 4 – Quét thành phần phụ thuộc (SCA Scan - Trivy FS)](5.5.3-SCA-Scan/)
-4. [5.5.4 Stage 5 – Phân tích tĩnh mã nguồn (SAST Scan - SonarQube)](5.5.4-SAST-Scan/)
-5. [5.5.5 Stage 6 – Quét cấu hình Hạ tầng (IaC Scan - Checkov)](5.5.5-IaC-Scan/)
-6. [5.5.6 Stage 8 – Quét Image Container trên Amazon ECR (Trivy Image)](5.5.6-Container-Scan/)
-7. [5.5.7 Kết quả tổng hợp & Triển khai AWS ECS Fargate](5.5.7-Summary/)
-
+1. [5.5.1 Tổng quan về chiến lược kiểm thử](5.5.1-overview/)
+2. [5.5.2 Stage 3 – Quét key bí mật mã hoá cứng (Secrets Scan - Gitleaks)](5.5.2-secrets-scan/)
+3. [5.5.3 Stage 4 – Quét thành phần phụ thuộc (SCA Scan - Trivy FS)](5.5.3-sca-scan/)
+4. [5.5.4 Stage 5 – Phân tích tĩnh mã nguồn (SAST Scan - SonarQube)](5.5.4-sast-scan/)
+5. [5.5.5 Stage 6 – Quét cấu hình Hạ tầng (IaC Scan - Checkov)](5.5.5-iac-scan/)
+6. [5.5.6 Stage 8 – Quét Image Container trên Amazon ECR (Trivy Image)](5.5.6-container-scan/)
+7. [5.5.7 Kết quả tổng hợp & Triển khai AWS ECS Fargate](5.5.7-summary/)

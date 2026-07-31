@@ -12,7 +12,7 @@ pre : " <b> 5.1.2. </b> "
 
 ### 1. Sơ đồ kiến trúc giải pháp
 
-![DevSecOps Architecture](/images/2-Proposal/devsecops_pipeline_architecture.png)
+![DevSecOps Architecture](/images/2-Proposal/devsecops_factory_actual_architecture.png)
 
 *Hình 5.1.2: Kiến trúc tổng thể hệ thống DevSecOps Factory trên AWS.*
 

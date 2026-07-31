@@ -1,4 +1,18 @@
-{{ $url := .Destination }}
-{{ $url = strings.TrimPrefix "/" $url }}
-{{ $url = strings.TrimPrefix "static/" $url }}
-<img src="{{ $url | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />
+{{- $raw := .Destination -}}
+{{- $parsed := urls.Parse $raw -}}
+{{- $query := $parsed.Query -}}
+{{- $src := $raw -}}
+{{- if not (or (strings.HasPrefix $raw "http://") (strings.HasPrefix $raw "https://")) -}}
+  {{- $path := $parsed.Path -}}
+  {{- $path = strings.TrimPrefix "/" $path -}}
+  {{- $path = strings.TrimPrefix "static/" $path -}}
+  {{- $src = $path | relURL -}}
+{{- end -}}
+{{- $width := $query.Get "width" -}}
+{{- $height := $query.Get "height" -}}
+{{- $classes := $query.Get "classes" -}}
+{{- $style := "" -}}
+{{- with $width -}}{{- $style = printf "%smax-width:%s;width:100%%;" $style . -}}{{- end -}}
+{{- with $height -}}{{- $style = printf "%smax-height:%s;" $style . -}}{{- end -}}
+{{- if $style -}}{{- $style = printf "%sheight:auto;" $style -}}{{- end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ with $classes }} class="{{ replace . "," " " }}"{{ end }}{{ if $style }} style="{{ $style | safeCSS }}"{{ end }} />

@@ -18,8 +18,8 @@ This section provides detailed step-by-step hands-on instructions for building, 
 
 ## Table of Contents
 
-1. [5.3.1 Initialize ECR Repository & S3 Report Bucket](5.3.1-ECR-S3/)
-2. [5.3.2 Configure IAM Roles & Security Policies](5.3.2-IAM-Policies/)
-3. [5.3.3 Configure 6 Security Gates in Jenkinsfile](5.3.3-Security-Gates/)
-4. [5.3.4 Provision AWS Lambda Security Report Aggregator](5.3.4-Lambda-Aggregator/)
-5. [5.3.5 Deploy Application to Amazon ECS Fargate](5.3.5-ECS-Fargate/)
+1. [5.3.1 Initialize ECR Repository & S3 Report Bucket](5.3.1-ecr-s3/)
+2. [5.3.2 Configure IAM Roles & Security Policies](5.3.2-iam-policies/)
+3. [5.3.3 Configure 6 Security Gates in Jenkinsfile](5.3.3-security-gates/)
+4. [5.3.4 Provision AWS Lambda Security Report Aggregator](5.3.4-lambda-aggregator/)
+5. [5.3.5 Deploy Application to Amazon ECS Fargate](5.3.5-ecs-fargate/)
