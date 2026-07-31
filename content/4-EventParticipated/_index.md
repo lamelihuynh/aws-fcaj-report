@@ -12,7 +12,7 @@ This section records the events that I actually participated in during the AWS F
 
 &emsp;**Event Name:** Cloud Architect Game Show
 
-&emsp;**Date & Time:** June 27, 2026
+&emsp;**Date & Time:** June 20, 2026
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
@@ -35,7 +35,7 @@ This section records the events that I actually participated in during the AWS F
 
 &emsp;**Event Name:** AWS Tech Meetup & Community Knowledge Sharing
 
-&emsp;**Date & Time:** July 22, 2026
+&emsp;**Date & Time:** July 11, 2026
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 

@@ -12,7 +12,7 @@ Phần này ghi lại các sự kiện em đã thật sự tham gia trong quá t
 
 &emsp;**Tên sự kiện:** Cloud Architect Game Show
 
-&emsp;**Thời gian:** 27/06/2026
+&emsp;**Thời gian:** 20/06/2026
 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
@@ -35,7 +35,7 @@ Phần này ghi lại các sự kiện em đã thật sự tham gia trong quá t
 
 &emsp;**Tên sự kiện:** AWS Tech Meetup & Community Knowledge Sharing
 
-&emsp;**Thời gian:** 22/07/2026
+&emsp;**Thời gian:** 11/07/2026
 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
