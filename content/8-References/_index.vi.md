@@ -24,7 +24,7 @@ Phần này ghi lại mã nguồn, repository, minh chứng demo, bài blog đã
 ## 2. Video Demo & Visual Showcases
 
 - **DevSecOps CI/CD Pipeline Video Demo:**
-  👉 _(Cập nhật Video Demo URL tại đây nếu có)_
+  👉 [Video Demo](https://drive.google.com/file/d/1OZUILa0fnkHPgLaj_94Nr9XAnyTR94IJ/view)
 
 - **Security Scan Dashboards:**
   Jenkins Pipeline Console Logs, SonarQube Dashboard, CloudWatch Container Insights logs.

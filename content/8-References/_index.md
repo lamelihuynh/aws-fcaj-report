@@ -24,7 +24,7 @@ This section records the source code, repositories, demo evidence, shared blog p
 ## 2. Video Demo & Visual Showcases
 
 - **DevSecOps CI/CD Pipeline Video Demo:**
-  👉 _(Add Video Demo URL here if available)_
+  👉 [Video Demo](https://drive.google.com/file/d/1OZUILa0fnkHPgLaj_94Nr9XAnyTR94IJ/view)
 
 - **Security Scan Dashboards:**
   Jenkins Pipeline Console Logs, SonarQube Dashboard, CloudWatch Container Insights logs.
