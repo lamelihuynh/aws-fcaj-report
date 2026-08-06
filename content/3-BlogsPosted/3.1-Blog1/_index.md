@@ -375,6 +375,12 @@ The article shows how AWS Entity Resolution and Amazon Neptune Analytics can wor
 
 The main advantage is investigation depth. Instead of only checking individual records, analysts can inspect relationships between customers, accounts, contact details and transaction failures. Neptune Workbench then provides a practical environment for running queries, visualizing suspicious clusters and prioritizing fraud investigation.
 
+## Facebook Sharing Evidence
+
+The technical summary was shared to the AWS Study Group VN Facebook community and is currently pending group approval. This screenshot is kept as temporary evidence until the public post URL is available.
+
+![Facebook pending approval evidence for Blog 1](/images/3-BlogsPosted/blog1-fb-pending.png)
+
 ## About the authors
 
 <table>

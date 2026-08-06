@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-This section records the events that I actually participated in during the AWS First Cloud AI Journey internship. Event 3 and Event 4 are kept as placeholders in the report structure, but they are clearly marked as not participated and are not used as attendance evidence.
+This section records the events that I actually participated in during the AWS First Cloud AI Journey internship. Event 4 is kept as a placeholder in the report structure, but it is clearly marked as not participated and is not used as attendance evidence.
 
 ### [Event 1](4.1-Event1/)
 
@@ -54,11 +54,31 @@ This section records the events that I actually participated in during the AWS F
 
 ---
 
-<div style="border-left: 6px solid #ff9900; background: #fff7e6; padding: 14px 18px; margin: 18px 0;">
-  <h3 style="margin-top: 0;"><a href="4.3-Event3/">Event 3 - Not Participated</a></h3>
-  <p><strong>Status:</strong> Not participated / not counted as attendance evidence.</p>
-  <p>This slot is kept only to preserve the report structure. It will be updated later only if there is real attendance evidence, notes and photos from the event.</p>
-</div>
+### [Event 3](4.3-Event3/)
+
+&emsp;**Event Name:** Agent Forge - Deepdive Day 1
+
+&emsp;**Date & Time:** August 1, 2026, 09:00 - 12:00
+
+&emsp;**Location:** Bitexco Financial Tower, Ho Chi Minh City
+
+&emsp;**Role:** Attendee
+
+&emsp;**Speakers:**
+* **Nghia Tran:** Agentic SA, speaker for the Amazon Bedrock AgentCore theory session.
+* **Anh Pham:** Cloud Consultant at G-AsiaPacific VietNam, speaker for the cloud implementation and hands-on perspective.
+
+&emsp;**Main Content & Activities:**
+* **Amazon Bedrock AgentCore Overview:** Learned the role of AgentCore in building and operating agentic applications on AWS.
+* **Runtime, Gateway and Identity:** Reviewed the core building blocks for executing agents, connecting external tools and controlling user identity.
+* **Hands-on Lab:** Followed the flow to deploy a basic agent, connect external tools and Knowledge Bases, build a Web UI and integrate Amazon Cognito authentication.
+* **Agent Architecture Discussion:** Understood why AI agents should be designed with security, identity, tool boundaries and operational control from the beginning.
+
+&emsp;**Outcomes & Values Gained:**
+* Gained a clearer view of how Amazon Bedrock AgentCore supports structured agent development beyond simple prompt-based chatbot prototypes.
+* Learned that practical agent applications require runtime design, controlled tool access, Knowledge Base governance and authentication through services such as Amazon Cognito.
+
+---
 
 <div style="border-left: 6px solid #ff9900; background: #fff7e6; padding: 14px 18px; margin: 18px 0;">
   <h3 style="margin-top: 0;"><a href="4.4-Event4/">Event 4 - Not Participated</a></h3>

@@ -292,6 +292,12 @@ Bài viết minh họa một pattern thực tế để kết hợp dữ liệu S
 
 Pattern này phù hợp khi SAP vẫn là system of record nhưng analytics, prediction và visualization cần mở rộng ra ngoài SAP environment. Các dịch vụ ML khác như Amazon Forecast, Amazon Textract, Amazon Translate và Amazon Comprehend cũng có thể tích hợp với SAP cho những use case khác.
 
+## Minh chứng chia sẻ Facebook
+
+Bài tóm tắt kỹ thuật đã được chia sẻ lên cộng đồng AWS Study Group VN và hiện đang trong trạng thái chờ quản trị viên phê duyệt. Ảnh dưới đây được dùng làm minh chứng tạm thời cho đến khi có URL bài đăng công khai.
+
+![Minh chứng Facebook đang chờ duyệt cho Blog 2](/images/3-BlogsPosted/blog2-fb-pending.png)
+
 ## Tác giả
 
 Trang AWS Blog ghi **Sourav Sadhu** là tác giả. Bài này không có phần ảnh chân dung hoặc author bio riêng.

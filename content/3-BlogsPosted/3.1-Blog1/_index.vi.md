@@ -375,6 +375,12 @@ Bài viết cho thấy AWS Entity Resolution và Amazon Neptune Analytics có th
 
 Lợi ích chính nằm ở chiều sâu điều tra. Thay vì chỉ kiểm tra từng record riêng lẻ, analyst có thể xem quan hệ giữa customer, account, contact detail và transaction failure. Neptune Workbench cung cấp môi trường thực tế để chạy query, nhìn các cụm đáng ngờ và ưu tiên điều tra gian lận.
 
+## Minh chứng chia sẻ Facebook
+
+Bài tóm tắt kỹ thuật đã được chia sẻ lên cộng đồng AWS Study Group VN và hiện đang trong trạng thái chờ quản trị viên phê duyệt. Ảnh dưới đây được dùng làm minh chứng tạm thời cho đến khi có URL bài đăng công khai.
+
+![Minh chứng Facebook đang chờ duyệt cho Blog 1](/images/3-BlogsPosted/blog1-fb-pending.png)
+
 ## Về tác giả
 
 <table>
