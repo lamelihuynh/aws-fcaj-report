@@ -8,7 +8,7 @@ pre: " <b> 4. </b> "
 
 This section records the events that I actually participated in during the AWS First Cloud AI Journey internship. Event 4 is kept as a placeholder in the report structure, but it is clearly marked as not participated and is not used as attendance evidence.
 
-### [Event 1](4.1-Event1/)
+### [Event 1](4.1-event1/)
 
 &emsp;**Event Name:** Cloud Architect Game Show
 
@@ -31,7 +31,7 @@ This section records the events that I actually participated in during the AWS F
 
 ---
 
-### [Event 2](4.2-Event2/)
+### [Event 2](4.2-event2/)
 
 &emsp;**Event Name:** AWS Tech Meetup & Community Knowledge Sharing
 
@@ -54,7 +54,7 @@ This section records the events that I actually participated in during the AWS F
 
 ---
 
-### [Event 3](4.3-Event3/)
+### [Event 3](4.3-event3/)
 
 &emsp;**Event Name:** Agent Forge - Deepdive Day 1
 
@@ -81,7 +81,7 @@ This section records the events that I actually participated in during the AWS F
 ---
 
 <div style="border-left: 6px solid #ff9900; background: #fff7e6; padding: 14px 18px; margin: 18px 0;">
-  <h3 style="margin-top: 0;"><a href="4.4-Event4/">Event 4 - Not Participated</a></h3>
+  <h3 style="margin-top: 0;"><a href="4.4-event4/">Event 4 - Not Participated</a></h3>
   <p><strong>Status:</strong> Not participated / not counted as attendance evidence.</p>
   <p>This slot is kept only to preserve the report structure. It will be updated later only if there is real attendance evidence, notes and photos from the event.</p>
 </div>

@@ -8,7 +8,7 @@ pre: " <b> 4. </b> "
 
 Phần này ghi lại các sự kiện em đã thật sự tham gia trong quá trình thực tập AWS First Cloud AI Journey. Event 4 vẫn được giữ trong cấu trúc báo cáo, nhưng được đánh dấu rõ là chưa tham gia và không dùng làm minh chứng tham dự.
 
-### [Event 1](4.1-Event1/)
+### [Event 1](4.1-event1/)
 
 &emsp;**Tên sự kiện:** Cloud Architect Game Show
 
@@ -31,7 +31,7 @@ Phần này ghi lại các sự kiện em đã thật sự tham gia trong quá t
 
 ---
 
-### [Event 2](4.2-Event2/)
+### [Event 2](4.2-event2/)
 
 &emsp;**Tên sự kiện:** AWS Tech Meetup & Community Knowledge Sharing
 
@@ -54,7 +54,7 @@ Phần này ghi lại các sự kiện em đã thật sự tham gia trong quá t
 
 ---
 
-### [Event 3](4.3-Event3/)
+### [Event 3](4.3-event3/)
 
 &emsp;**Tên sự kiện:** Agent Forge - Deepdive Day 1
 
@@ -81,7 +81,7 @@ Phần này ghi lại các sự kiện em đã thật sự tham gia trong quá t
 ---
 
 <div style="border-left: 6px solid #ff9900; background: #fff7e6; padding: 14px 18px; margin: 18px 0;">
-  <h3 style="margin-top: 0;"><a href="4.4-Event4/">Event 4 - Chưa tham gia</a></h3>
+  <h3 style="margin-top: 0;"><a href="4.4-event4/">Event 4 - Chưa tham gia</a></h3>
   <p><strong>Trạng thái:</strong> Chưa tham gia / không tính là minh chứng tham dự.</p>
   <p>Mục này được giữ lại để đúng cấu trúc báo cáo. Nội dung chỉ nên cập nhật khi có minh chứng tham dự thật, ghi chú sự kiện và hình ảnh phù hợp.</p>
 </div>
