@@ -32,19 +32,25 @@ Phần này ghi lại mã nguồn, repository, minh chứng demo, bài blog đã
 ## 3. Shared Blog Posts on Facebook Group
 
 - **Blog 1: Build fraud detection systems using AWS Entity Resolution and Amazon Neptune Analytics**
-  👉 Minh chứng Facebook: _(Cập nhật Facebook post URL tại đây)_
+  👉 Minh chứng Facebook: Đang chờ quản trị viên group phê duyệt. URL bài đăng công khai sẽ được cập nhật sau khi bài được duyệt.
   👉 [Nội dung chi tiết trên Site](../3-blogsposted/3.1-blog1/)
   👉 [Bài AWS gốc](https://aws.amazon.com/blogs/database/build-fraud-detection-systems-using-aws-entity-resolution-and-amazon-neptune-analytics/)
 
+  ![Minh chứng Facebook đang chờ duyệt cho Blog 1](/images/3-BlogsPosted/blog1-fb-pending.png)
+
 - **Blog 2: Data insights from SAP with Amazon SageMaker AutoML and QuickSight**
-  👉 Minh chứng Facebook: _(Cập nhật Facebook post URL tại đây)_
+  👉 Minh chứng Facebook: Đang chờ quản trị viên group phê duyệt. URL bài đăng công khai sẽ được cập nhật sau khi bài được duyệt.
   👉 [Nội dung chi tiết trên Site](../3-blogsposted/3.2-blog2/)
   👉 [Bài AWS gốc](https://aws.amazon.com/blogs/awsforsap/data-insights-from-sap-with-amazon-sagemaker-automl-and-quicksight/)
 
+  ![Minh chứng Facebook đang chờ duyệt cho Blog 2](/images/3-BlogsPosted/blog2-fb-pending.png)
+
 - **Blog 3: Optimizing data transfer costs when using AWS Network Load Balancer**
-  👉 Minh chứng Facebook: _(Cập nhật Facebook post URL tại đây)_
+  👉 Minh chứng Facebook: Đang chờ quản trị viên group phê duyệt. URL bài đăng công khai sẽ được cập nhật sau khi bài được duyệt.
   👉 [Nội dung chi tiết trên Site](../3-blogsposted/3.3-blog3/)
   👉 [Bài AWS gốc](https://aws.amazon.com/blogs/networking-and-content-delivery/optimizing-data-transfer-costs-when-using-aws-network-load-balancer/)
+
+  ![Minh chứng Facebook đang chờ duyệt cho Blog 3](/images/3-BlogsPosted/blog3-fb-pending.png)
 
 ## 4. Minh chứng học tập cá nhân
 

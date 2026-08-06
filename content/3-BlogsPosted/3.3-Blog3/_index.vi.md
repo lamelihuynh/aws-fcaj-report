@@ -194,12 +194,6 @@ Với workload thật, nên kiểm tra cấu hình theo thứ tự:
 7. Theo dõi NLB metrics, target health, target utilization và inter-AZ latency.
 8. Tính lại chi phí sau khi traffic pattern thay đổi.
 
-## Minh chứng chia sẻ Facebook
-
-Bài tóm tắt kỹ thuật đã được chia sẻ lên cộng đồng AWS Study Group VN và hiện đang trong trạng thái chờ quản trị viên phê duyệt. Ảnh dưới đây được dùng làm minh chứng tạm thời cho đến khi có URL bài đăng công khai.
-
-![Minh chứng Facebook đang chờ duyệt cho Blog 3](/images/3-BlogsPosted/blog3-fb-pending.png)
-
 ## Về tác giả
 
 ![Luis Felipe Silveira da Silva](/images/3-BlogsPosted/blog3-author-luis-felipe.jpg)

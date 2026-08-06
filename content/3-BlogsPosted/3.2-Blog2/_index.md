@@ -292,12 +292,6 @@ The article demonstrates one practical pattern for combining SAP data with AWS a
 
 This pattern is useful when SAP remains the system of record but analytics, prediction and visualization need to extend beyond the SAP environment. Other AWS ML services such as Amazon Forecast, Amazon Textract, Amazon Translate and Amazon Comprehend can be integrated with SAP for different use cases.
 
-## Facebook Sharing Evidence
-
-The technical summary was shared to the AWS Study Group VN Facebook community and is currently pending group approval. This screenshot is kept as temporary evidence until the public post URL is available.
-
-![Facebook pending approval evidence for Blog 2](/images/3-BlogsPosted/blog2-fb-pending.png)
-
 ## Author
 
 The AWS blog page lists **Sourav Sadhu** as the author. The page does not include a separate author portrait or author bio section.

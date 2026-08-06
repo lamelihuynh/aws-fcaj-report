@@ -32,19 +32,25 @@ This section records the source code, repositories, demo evidence, shared blog p
 ## 3. Shared Blog Posts on Facebook Group
 
 - **Blog 1: Build fraud detection systems using AWS Entity Resolution and Amazon Neptune Analytics**
-  👉 Facebook evidence: _(Add Facebook post URL here)_
+  👉 Facebook evidence: Pending group approval. Public post URL will be added after approval.
   👉 [Detailed Post on Site](../3-blogsposted/3.1-blog1/)
   👉 [Original AWS Blog](https://aws.amazon.com/blogs/database/build-fraud-detection-systems-using-aws-entity-resolution-and-amazon-neptune-analytics/)
 
+  ![Facebook pending approval evidence for Blog 1](/images/3-BlogsPosted/blog1-fb-pending.png)
+
 - **Blog 2: Data insights from SAP with Amazon SageMaker AutoML and QuickSight**
-  👉 Facebook evidence: _(Add Facebook post URL here)_
+  👉 Facebook evidence: Pending group approval. Public post URL will be added after approval.
   👉 [Detailed Post on Site](../3-blogsposted/3.2-blog2/)
   👉 [Original AWS Blog](https://aws.amazon.com/blogs/awsforsap/data-insights-from-sap-with-amazon-sagemaker-automl-and-quicksight/)
 
+  ![Facebook pending approval evidence for Blog 2](/images/3-BlogsPosted/blog2-fb-pending.png)
+
 - **Blog 3: Optimizing data transfer costs when using AWS Network Load Balancer**
-  👉 Facebook evidence: _(Add Facebook post URL here)_
+  👉 Facebook evidence: Pending group approval. Public post URL will be added after approval.
   👉 [Detailed Post on Site](../3-blogsposted/3.3-blog3/)
   👉 [Original AWS Blog](https://aws.amazon.com/blogs/networking-and-content-delivery/optimizing-data-transfer-costs-when-using-aws-network-load-balancer/)
+
+  ![Facebook pending approval evidence for Blog 3](/images/3-BlogsPosted/blog3-fb-pending.png)
 
 ## 4. Personal Learning Evidence
 

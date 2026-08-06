@@ -194,12 +194,6 @@ For a real workload, the configuration should be checked in this order:
 7. Monitor NLB metrics, target health, target utilization and inter-AZ latency.
 8. Recalculate the cost after traffic patterns change.
 
-## Facebook Sharing Evidence
-
-The technical summary was shared to the AWS Study Group VN Facebook community and is currently pending group approval. This screenshot is kept as temporary evidence until the public post URL is available.
-
-![Facebook pending approval evidence for Blog 3](/images/3-BlogsPosted/blog3-fb-pending.png)
-
 ## About the authors
 
 ![Luis Felipe Silveira da Silva](/images/3-BlogsPosted/blog3-author-luis-felipe.jpg)
